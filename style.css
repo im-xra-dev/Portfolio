@@ -1,4 +1,8 @@
-body{
+.title{
     text-align: center;
     color: #0110FA;
+} 
+.welcome{
+    text-align: center;
+    color: #FF0000;
 } 
