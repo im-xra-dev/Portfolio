@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Projects -- Charlie's Portfolio</title>
+	<title>About -- Charlie's Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="scripts.js"></script>
-	
 	<style>
-	#left{
-		position: relative;
-   		bottom: 300px;
-    	right: 20px
-	}
-	#right{
-		position: relative;
-   		bottom: 350px;
-    	right: -700px
-	}
-	</style>
+.title{
+	text-align: center;
+    padding: 10px;
+    text-shadow: 3px 2px #BBB;
+    color: #000000;
 	
+} 
+.titleBG{
+	background-image: url("bg-img-contact.png");
+    background-repeat: repeat-x;
+    background-position: center;
+	margin-top: -20px;
+    width: 100%;
+    height: 65px;
+}
+
+	</style>
 </head>
 <body>
 <div id = "pageBG">
@@ -28,24 +32,24 @@
 	<div id="p3" class="button" onclick = "location.href = 'my-projects.html';" onmouseover = "active(this)" onmouseout = "inactive(this)">My Projects</div>
 	<div id="p4" class="button" onclick = "location.href = 'contact.html';" onmouseover = "active(this)" onmouseout = "inactive(this)">Contact</div>
 </div>
+<div class = "line-2px"></div>
 
-<div style = "background-color: grey;" id = "p-300">
-<h2><u>Please take some time to view a couple of my projects.</u></h2>
-</div>
+<div class = "titleBG"><h1 class = "title"><u>Contact</u></h1></div>
+<div class = "line-2px"></div>
 
 <div class = "BG" id = "p-300">
-	<div onmouseover = "hover_img()" onmouseout = "hover_img_stop()">
-		<div style = "width: 700px; height: 515px;background-color: #414141">
-			<img src = "images/0.png" id = "frame" style = "width: 700px;">Above are some images of things I have worked on.</img>
-		</div>
-		<div class = "hide" id = "left" onclick = "left()">&#x2190</div>
-		<div class = "hide" id = "right" onclick = "right()">&#x2192</div>
-		
-	</div>
+
+<h4>Get in Touch!</h4>
+
+<p>There are many ways to contact me.  The easyest ways are displayed below, so please get in touch if you are interested or would like more information.
+<p>
+<p>Email: CharlieFerris15@gmail.com
+<p>Discord: @LavaTheif#1680
+<p>Skype: cf6280</p>
+
+
 </div>
 
 </div>
-
-
 </body>
 </html>
