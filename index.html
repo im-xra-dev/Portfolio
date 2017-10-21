@@ -28,6 +28,11 @@
 #header-home{
 	background-color: rgba(0, 0, 0, 1);	
 }
+#center{
+	position: relative;
+    top: 15px;
+    right: -40%;
+}
 </style>
 
 </head>
@@ -52,8 +57,20 @@
 </div>
 
 <div id = "p-300">
-	<h1><u>Comming Soon!</u></h1>
-	<p>Reviews section, where you can post public reviews!</p>
+	<h1><u>Reviews</u></h1>
+	
+	<textarea rows="10" style = "width: 75%" readonly>Comming soon</textarea>
+	<div class = "line-1px"></div>
+	
+	<p><u>Post a review below</u></p>
+	
+	<div id = "gap" style = "height: 20px"></div>
+	
+	<p>Name:</p>
+	<textarea id = "name" style = "width: 52%" placeholder="Please enter your name here..." rows="1" required maxlength="30"  disabled></textarea>
+	<textarea rows="7" style = "width: 55%" placeholder="Please enter your review here..." maxlength="500" required   disabled></textarea>
+	
+	<div class="button" id = "center" onmouseover = "active(this)" onmouseout = "inactive(this)" style = "text-align: center;">Submit</div>
 </div>
 
 <div class = "line-2px"></div>
