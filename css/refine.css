@@ -1,0 +1,117 @@
+#page-selector-home-page{
+    left: -10px;
+    top: 10px;
+}
+#page-selector-home-page:hover{
+    left: -18px;
+}
+
+#page-selector-about-page{
+    left: 50px;
+    top: 10px;
+}
+#page-selector-about-page:hover{
+    left: 42px;
+}
+
+#page-selector-contact-page{
+    left: 110px;
+    top: 10px;
+}
+#page-selector-contact-page:hover{
+    left: 102px;
+}
+
+#welcome-text-container{
+    top: 130px;
+    min-width: 350px;
+}
+
+#welcome-subtext-container {
+    top: 195px;
+    min-width: 350px;
+}
+
+#main-image-front-page{
+    position: absolute;
+    width: 60%;
+    height: 45%;
+    top: 280px;
+    border-radius: 30px;
+    box-shadow: 0 0 40px 14px #4be3ff inset;
+    background: url('/Portfolio/img/main-img-from-page.png') no-repeat;
+    background-size: cover;
+}
+
+#evolve-container{
+    top:250px;
+}
+#evolve-image{
+    background: url('/Portfolio/img/evolve-icon.png') no-repeat;
+    background-size: cover;
+}
+
+#euphoria-container{
+    top:450px;
+}
+#euphoria-image{
+    background: url('/Portfolio/img/euphoria-icon.png') no-repeat;
+    background-size: cover;
+}
+
+#small-world-container{
+    top:650px;
+}
+#small-world-image{
+    background: url('/Portfolio/img/small-world-icon.png') no-repeat;
+    background-size: contain;
+    top: 30px;
+}
+
+#eiennochat-container{
+    top:850px;
+}
+#eiennochat-image{
+    background: url('/Portfolio/img/eienno-icon.png') no-repeat;
+    background-size: contain;
+    top: 30px;
+}
+
+#ceaser-container{
+    top:1050px;
+}
+#ceaser-image{
+    background: url('/Portfolio/img/ceaser-icon.png') no-repeat;
+    background-size: cover;
+}
+
+#passwords-container{
+    top:1250px;
+}
+#passwords-image{
+    background: url('/Portfolio/img/passwords-icon.png') no-repeat;
+    background-size: cover;
+}
+
+#this-container{
+    top:1450px;
+}
+#this-image{
+    background: url('/Portfolio/img/evolve-icon.png') no-repeat;
+    background-size: cover;
+}
+
+#about-footer {
+    top: 1650px;
+}
+
+#contact-text-container{
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    margin-left: -145px;
+    background-color: rgba(0, 94, 224, 0.21176470588235294);
+    border-radius: 25px;
+    border: 20px solid rgba(0,0,0,0);
+    box-shadow: 0 0 20px 2px rgba(0, 94, 224, 0.21176470588235294);
+}
