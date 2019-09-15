@@ -1,4 +1,3 @@
-# Portfolio
+# Charlies Portfolio
 
-This is my porfolio.  View it here: lavatheif.com
-
+Hey, the site is currently down for Maintainence. It should be back soon!
