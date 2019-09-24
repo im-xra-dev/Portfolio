@@ -1,99 +1,38 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Charlies Portfolio -- about</title>
+    <title>Charlies Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/refine.css">
     <link rel="shortcut icon" type="image/png" href="../favicon.ico"/>
+    <meta name="viewport" content="width=800px, initial-scale=0">
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/resize.js"></script>
+    <script src="../js/mobile.js"></script>
+
 </head>
 <body>
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
-<div class="rectangle left-50" style="top: 50px;" id="page-selector-parent">
-    <div class="rectangle center-horizontal" id="page-selector-container">
-        <div class="button-0 square" id="page-selector-home-page" onclick="redir('/')"><br>Home</div>
-        <div class="button-0 square" id="page-selector-about-page" onclick="redir('/about/')"><br>About</div>
-        <div class="button-0 square" id="page-selector-contact-page" onclick="redir('/contact/')"><br>Contact</div>
-    </div>
-</div>
 
-<div class="text-container left-30" id="welcome-text-container" style="text-align: center;">
-    Hi.  I am Charlie, a programmer and web designer.  I have worked on many projects, both open and closed source during my time programming, and have organised a few here for you to check out!<br>
-    <div class="scroll" onclick="window.scroll({top:$(document).height(),left: 0,behavior: 'smooth'});setTimeout(function(){if(window.scrollY==0)window.scrollTo(0, $(document).height());}, 100);">Click here to scroll past my projects.</div>
-</div>
-
-<div class="example-container" id="evolve-container">
-    <div class="example-image" id="evolve-image"></div>
-    <div class="example-title">Evolve. [Open Source]</div>
-    <div class="example-content">Evolve is a small project that I started working on when my internet was down.  It aims to be a simulation of a planet containing animals, plants and bacteria.  These organisms start with random stats, and over time will slowly evolve by breeding with other organisms to (hopefully) create a sustainable ecosystem that can be watched and observed.  It is written in Java and is open-sourced at the link below.</div>
-    <div class="example-link"><a href="https://github.com/LavaTheif/Evolution" target="_blank">Click here to view the open source Github repo.</a></div>
-</div>
-
-<div class="example-container" id="euphoria-container">
-    <div class="example-image" id="euphoria-image"></div>
-    <div class="example-title">Euphoria Bot.</div>
-    <div class="example-content">Euphoria bot is one of many discord bots that I have created.  This one is a collaborative project between me and <a href="https://badexample.xyz/" target="_blank">Isidro</a> for our discord community server.  We are currently working on updating a few of the commands and improving it.  It has been written in JavaScript, however I also have experience in writing Discord bots (and self bots) in Java and Python too.</div>
-    <div class="example-link"><a href="https://discord.gg/tpTg6mm" target="_blank">View the bot in this discord server.</a></div>
-</div>
-
-<div class="example-container" id="small-world-container">
-    <div class="example-image" id="small-world-image"></div>
-    <div class="example-title">Small World. [Open Source]</div>
-    <div class="example-content">This is a small game that I created in 2 days for the Ludum Dare Compo on 22/4/17.  This was the 38th compo which also marked 15 years since Ludum Dare started.  The theme was to create something about a 'small world', so I chose to go with a tiny planet of which you are a character stuck on an island in a zombie outbreak.  You must collect food to keep your family from dying for long enough to be rescued.  The graphics are of low quality, and I could never get the food to appear in the exact right locations, however I am proud of it still as it was my first (and currently only) Ludum Dare game.</div>
-    <div class="example-link"><a href="https://github.com/LavaTheif/Ludum-Dare-" target="_blank">Click here to view the open source Github repo.</a></div>
-</div>
-
-<div class="example-container" id="eiennochat-container">
-    <div class="example-image" id="eiennochat-image"></div>
-    <div class="example-title">Eienno Chat</div>
-    <div class="example-content">Eienno Chat is a social media site, similar to Discord and Slack.  It has been a project of mine for quite a while now and I aim for it to become semi popular.  The backend servers have been written with Java, and the site with HTML, CSS and JavaScript.  It is probably the biggest project that I have worked on, and has been really fun so far.  I have many features planned for it in the future and am working on implementing them in most of my free time.</div>
-    <div class="example-link"><a href="https://eiennochat.co.uk" target="_blank">Click here to view the site.</a></div>
-</div>
-
-<div class="example-container" id="ceaser-container">
-    <div class="example-image" id="ceaser-image"></div>
-    <div class="example-title">Ceaser Cipher. [Open Source]</div>
-    <div class="example-content">In my old computing class, I had completed all the work that the teacher had set for that lesson and the lesson he wasn't going to be there, so he told me that in the next class I should make a Ceaser Cipher.  During the first 10 mins of that class I made it and spent the rest of the hour making a very basic peer-to-peer message sender.  I wrote both of these in Python, as that's the only language we had at school, and therefore, this is where I ended up doing most of my Python programming.</div>
-    <div class="example-link"><a href="https://github.com/LavaTheif/caesar-cipher" target="_blank">Click here to view the open source Github repo.</a></div>
-</div>
-
-<div class="example-container" id="passwords-container">
-    <div class="example-image" id="passwords-image"></div>
-    <div class="example-title">Password Generator.</div>
-    <div class="example-content">For my GCSEs we were required to complete an NEA task, in which we had 20 hours to plan, write, and document a program that followed specific rules.  This all had to be done in intense detail, and although the program itself was only a few hundred lines (I believe it was about 400) my documentation and plans were about 15 pages long.  As you can probably tell, the program we had to write needed to be a password generator that could either generate a secure password (following given rules) or test the strength of a password (following the same rules).  I managed to complete this task in about half the total time that we had, and got an 8 (2 marks off of a 9) overall in computing (Which is roughly an A*).  As stated above, our school used Python for everything, so despite me asking to use Java, I wrote it in Python.  Unfortunately, I do not have access to the program I wrote anymore, Otherwise it would be open-sourced.</div>
-</div>
-
-<div class="example-container" id="this-container">
-    <div class="example-image" id="this-image"></div>
-    <div class="example-title">This Site. [Open Source]</div>
-    <div class="example-content">Well my old portfolio was outdated, and looked horrible so I decided to take an evening to redo the whole thing.  This is the result.  It is written in HTML and CSS with the smallest amount of JavaScript.</div>
-    <div class="example-link"><a href="">Click here to view the website.  I bet you have never seen it before.</a></div>
-</div>
-
-<div class="text-container footer-text" id="about-footer"><br>
-    As you can tell above I know Java, Python and JavaScript pretty well, but I also know some Scala and C#.  I haven't written as many projects in these languages, however I do have a pretty firm grasp of how the language works and know the syntax well.<br><br>
-    I also have been using AWS for well over a year, so I know how to set up and manage servers on the cloud.<br><br>
-    <u>Experience:</u><br>
-    * Scala - I haven't used it loads, but I first started using it late 2017. *<br>
-    * C# - I haven't used this much eithers.  I also first started using it late 2017. *<br>
-    * JavaScript - I have used this for many projects, some websites, some node.js, some electron.  I started using it some time in early 2017. *<br>
-    * HTML & CSS - I have created many projects, and first started using it the same time as JavaScript, early 2017. *<br>
-    * AWS - I first signed up to AWS sometime early 2017. *<br>
-    * Java - I have been using Java since the 7th December 2015, and have a lot of experience with it, from making games, to servers or bots and many more things. *<br>
-    * Python - I first used python in 2015 at school, and have used it in many project since. * *<br>
-    * And finally, if it counts, Scratch - Scratch was what made me start liking programming, and taught me the basics like loops and booleans etc.  I first started using it early to mid 2013. *<br>
+<div id="abt-cont-1" class="text-container cont1 small-border center">
+    Hi, I am Charlie, a Full Stack developer with experience in Desktop applications, Web Development and creating bots.<br>
     <br>
-    <div class="scroll" onclick="window.scroll({top:0,left: 0,behavior: 'smooth'});">Scroll to top.</div>
+    I am experienced in developing with a range of languages, libraries and APIs which allows me to build top quality applications that run smoothly, and can handle a large user-base.<br>
+    I also fully test all the code that I write in order to ensure that my applications do not encounter any unexpected behaviour.<br>
     <br>
+    <br>
+    The languages that I use to build programs with include Java, Python and JavaScript/Node JS.  As well as this I am experienced in designing UI for websites with HTML/CSS.<br>
+    I additionally have experience with both SQL and NoSQL Databases, and can set up servers to host the backend due to my experience with AWS and Linux.
 </div>
+
 </body>
 </html>

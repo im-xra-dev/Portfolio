@@ -1,0 +1,76 @@
+/*body {*/
+    /*background: red !important;*/
+/*}*/
+.button-0-mobile{
+    font-size: 24px !important;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+#page-selector-home-page{
+    left: -300px !important;
+    top: -20px !important;
+}
+#page-selector-home-page:hover{
+    left: -300px !important;
+}
+
+#page-selector-about-page{
+    left: -150px !important;
+    top: -20px !important;
+}
+#page-selector-about-page:hover{
+    left: -150px !important;
+}
+#page-selector-projects-page{
+    left: 200px !important;
+    top: -20px !important;
+}
+#page-selector-projects-page:hover{
+    left: 200px !important;
+}
+
+#page-selector-contact-page{
+    left: 350px !important;
+    top: -20px !important;
+}
+#page-selector-contact-page:hover{
+    left: 350px !important;
+}
+
+h1{
+    font-size: 50px !important;
+}
+h6{
+    font-size: 20px !important;
+}
+
+.project-elm-mobile{
+    width: 700px !important;
+    font-size: 30px !important;
+}
+
+
+#welcome-text-container{
+    top: 175px !important;
+}
+
+#welcome-subtext-container {
+    top: 275px !important;
+}
+#main-image-front-page{
+    top: 350px !important;
+}
+
+#abt-cont-1{
+    top: calc(50% - 500px) !important;
+    font-size: 35px !important;
+}
+
+#projects-cont-1{
+    font-size: 35px !important;
+}
+
+.img{
+    width: 100% !important;
+}

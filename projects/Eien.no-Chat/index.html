@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Charlies Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/refine.css">
+    <link rel="shortcut icon" type="image/png" href="../../favicon.ico"/>
+    <meta name="viewport" content="width=800px, initial-scale=0">
+
+    <script src="../particles.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/resize.js"></script>
+    <script src="../../js/mobile.js"></script>
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div id="project-cont">
+    <div id="projects-cont-1" class="text-container cont1 small-border center">
+        <a href="https://eiennochat.co.uk/" target="_blank">Eien.no Chat</a> was a website that allowed users to chat to one and other privately, or create a server that would let
+        them invite friends and chat together, similar to discord and slack. Servers could also be opened to the public
+        which would allow users to search for it in the servers search menu.<br>
+        <br>
+        The system was built with scalability in mind, and allowed for servers to be added and removed if demand drastically
+        changed. The servers could be managed from a separate admin panel, and were controlled by various handlers which monitored
+        user counts and commands. These handlers would also send notifications to alert me if a server began running over its
+        maximum capacity.<br>
+        <br>
+        The servers ran using various AWS instances and where configured to act as one cluster to serve the user requests that
+        came through. All the traffic was routed through CloudFlare to enable SSL and to help mitigate attacks. The database
+        that was used was Cassandra, an SQL-type of database.<br>
+        <br>
+        The Front End was a web client that performed requests to get, edit and change data on the servers. Each request was
+        accompanied by a token and ID to prove the users identity and prevent anyone being able to send data as that account.
+        The design for the site had many revisions before the final one was decided on, to ensure that it would offer the best
+        user experience possible.<br>
+        <br>
+        The systems where tested thoroughly throughout development and just before releases to ensure everything ran smoothly.
+        The main focus was on security, and performance, and being able to run with minimal downtime as possible.<br>
+        <img src="img2.bmp" class="img"/>
+        <img src="img.bmp" class="img"/>
+        <img src="advertImg.png" class="img"/>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>

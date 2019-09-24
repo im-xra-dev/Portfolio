@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Charlies Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/refine.css">
+    <link rel="shortcut icon" type="image/png" href="../favicon.ico"/>
+    <meta name="viewport" content="width=800px, initial-scale=0">
+
+    <script src="particles.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/mobile.js"></script>
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+
+<div id="project-cont">
+    <div class="left-10 small-border project-elm project-elm-mobile" onclick="window.location.href+='Eien.no-Chat/'">
+        <h1>Eien.no Chat</h1>
+        Eien.no Chat was a website that allowed users to chat to one and other privately, or create a server that would let them...<br>
+        <h6>Technologies:
+            <li>Java (Backend)</li>
+            <li>Cassandra (Backend)</li>
+            <li>Websockets (Networking)</li>
+            <li>JS/CSS (Front End)</li>
+        </h6>
+    </div>
+
+    <div class="left-20 small-border project-elm project-elm-mobile" onclick="window.location.href+='Trip-Planner/'">
+        <h1>College Trip Planner</h1>
+        During 2018/19 I developed an application for my college to allow them to plan trips for the classes. It involved having...<br>
+        <h6>Technologies:
+            <li>Java (Backend & Front End)</li>
+            <li>SQL</li>
+        </h6>
+    </div>
+
+    <div class="left-10 small-border project-elm project-elm-mobile" onclick="window.location.href+='S8N-MC-Bot/'">
+        <h1>S8N MC Bot</h1>
+        S8N MC bot is a Discord bot that is used by thousands of users in the official S8N MC server. I worked as part of a team...<br>
+        <h6>Technologies:
+            <li>Node JS</li>
+            <li>Mongo DB</li>
+        </h6>
+    </div>
+
+    <div class="left-20 small-border project-elm project-elm-mobile" onclick="window.location.href+='Lava-Logger/'">
+        <h1>Lava Logger</h1>
+        Lava Logger is my open source logging application that I am working on. It aims to store all logs in one easy-to-search ...<br>
+        <h6>Technologies:
+            <li>Node JS (Management of Logs & Querying of logs)</li>
+            <li>Node JS (For sending logs)</li>
+            <li>Cassandra</li>
+            <li>MongoDB</li>
+        </h6>
+    </div>
+
+    <div class="left-10 small-border project-elm project-elm-mobile" onclick="window.location.href+='Small-World/'">
+        <h1>Small World</h1>
+        Small world is a small game I made for Ludum Dare in 2017. It was made in 2 days, and is written in Java. It contains so...<br>
+        <h6>Technologies:
+            <li>Java</li>
+        </h6>
+    </div>
+
+    <div class="left-20 small-border project-elm project-elm-mobile" onclick="window.location.href='https://www.github.com/LavaTheif/'">
+        <h6>Click here to view my GitHub to check out some other projects I have worked on.</h6>
+    </div>
+
+    <div id="particles-js"></div>
+    <script>
+        if(!isMobile){
+            particlesJS.load('particles-js', 'particles.json', function() {
+                console.log('callback - particles.js config loaded');
+            });
+        }
+    </script>
+</div>
+
+</body>
+</html>
