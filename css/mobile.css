@@ -8,34 +8,34 @@
 }
 
 #page-selector-home-page{
-    left: -300px !important;
+    left: -200px !important;
     top: -20px !important;
 }
 #page-selector-home-page:hover{
-    left: -300px !important;
+    left: -200px !important;
 }
 
 #page-selector-about-page{
-    left: -150px !important;
+    left: -50px !important;
     top: -20px !important;
 }
 #page-selector-about-page:hover{
-    left: -150px !important;
+    left: -50px !important;
 }
 #page-selector-projects-page{
-    left: 200px !important;
+    left: 100px !important;
     top: -20px !important;
 }
 #page-selector-projects-page:hover{
-    left: 200px !important;
+    left: 100px !important;
 }
 
 #page-selector-contact-page{
-    left: 350px !important;
+    left: 250px !important;
     top: -20px !important;
 }
 #page-selector-contact-page:hover{
-    left: 350px !important;
+    left: 250px !important;
 }
 
 h1{
@@ -47,6 +47,7 @@ h6{
 
 .project-elm-mobile{
     width: 700px !important;
+    max-width: calc(80% - 150px - 25px) !important;
     font-size: 30px !important;
 }
 
@@ -63,7 +64,7 @@ h6{
 }
 
 #abt-cont-1{
-    top: calc(50% - 500px) !important;
+    top: 250px !important;
     font-size: 35px !important;
 }
 
