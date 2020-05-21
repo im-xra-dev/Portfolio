@@ -1,6 +1,0 @@
-<html>
-<script>
-window.location.href = "https://rickrolled.net/loc/"+window.location.pathname
-</script>
-<button onclick="'https://rickrolled.net/loc/'+window.location.pathname">Boop</button>
-</html>
