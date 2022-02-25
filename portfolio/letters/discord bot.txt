@@ -1,0 +1,16 @@
+Dear sir/madam,
+
+Discord is one of the few companies that I feel I can truly connect with. The companies values and
+
+I am a natural problem solver and have enjoyed solving problems for as long as I can remember, which is one of the main reasons that I am drawn to programming. I am currently a second year student at the University of Hertfordshire and have been achieving firsts so far in all of my modules.
+I know this specific job listing is for a full time senior developer, however I would be committed to keeping up with the work along-side my university work, and additionally from May I will finish for summer and be going on a placement year where I would only by working at Discord.
+
+In the past, I created a discord-inspired chat app which allowed users to create private or public servers with various channels and also allowed for categories (and sub categories) as well as role icons (this was way before these features were released in Discord). My app was only ever text based however it taught me many things about good system design as well as a lot about web development too. It was one of my projects of that was full-stack and it definately had a large impact on where I am today as a developer.
+The first time I ever earned money as a developer was when I was in 2017, and it was by developing a bot for someone I had met on Discord. I then went on to develop a few other bots as well as some Minecraft plugins for people I met.
+
+I am currently working on a Discord bot called Dash and have contacts with many other bot developers in the community. We have grown to 480 servers in just 8 months and are excited about the future of our bot as well as the Discord bot API itself.
+When slash commands were released, I found that migrating to them was super easy as I had already set up the code base so that we ran checks based on a JSON structure prior to running the command. It then passed the correct objects as arguments. This design allowed me to write one simple function to parse the JSON into the format explained by the Discord documentation, and add a new check to a few fetch statements.
+I feel like I could bring many ideas to the team with regards to future features for the bot API and feel like my experience with Discord will makes this the perfect position for me.
+
+Honestly, working at Discord would be a dream come true, and I would love to work in any department within the company, however I feel like the bot API would be the perfect area for me and would be one of the best jobs in my opinion.
+thanks for reading!
