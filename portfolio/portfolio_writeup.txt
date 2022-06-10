@@ -57,7 +57,6 @@ I worked in a team of initially 8 other people consisting of designers, develope
 
 The Minecraft server, which was hell-themed, was released on Halloween and was instantly flooded by over 100 users. Within the first week, we had many regular players as well as many premium users and we released many updates to add features requested by the community and improve the user experience.
 
-
 I enjoyed my time working on this project and I feel like it was a good fit for me as I had previous experience for creating plugins and running Minecraft servers so felt comfortable in my skills going into it, but also knew that I would have a lot of opportunities to learn new things.
 I think the most important thing I learned from working on s8nmc was to do with dealing with many users all at once. I learned about how you can't just open yourself up to hundreds of requests per minute without setting in place some mechanisms to handle the flow and enforce rate limits, and I think that it highlighted the importance of stress testing so you know how the system may behave large capacities.
 I also learned a lot about working in a team on a large project, and I feel that it really helped me to build my team skills as well as my communication skills with users of the product.
