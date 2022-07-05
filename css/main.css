@@ -273,7 +273,7 @@ h3{
   /*height: 250px;*/
 }
 
-#welcome-title{
+#welcome-title, #experience-title, h1{
   text-align: center;
 }
 
@@ -281,6 +281,10 @@ h3{
   width: 5em;
   height: 5em;
   margin-left: 20em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/portfolio/img/pic.webp');
+  border-radius: 5px;
 }
 
 /* ==========================================================================
